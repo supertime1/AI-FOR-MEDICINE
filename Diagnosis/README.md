@@ -2,17 +2,17 @@
 
 ### Week 1: Chest X-Ray Medical Diagonosis with Deep Learning
   1. Data preparation
-    - Visualizaing data
-    - Preventing data leakage: no overlapping of patients in training and test dataset
-    - Data input pipeline
-      - ImageDataGenerator: use different generator for train and test, if normalization is done is this step 
+  - Visualizaing data
+  - Preventing data leakage: no overlapping of patients in training and test dataset
+  - Data input pipeline
+    - ImageDataGenerator: use different generator for train and test, if normalization is done is this step 
   2. Model Development: How to address Medical Data Challenges
-    - Addressing class imbalance: weighted loss or resampling
-    - Dataset size: Leveraging pre-trained models using transfer learning + Data augmentation
-    - Multi-Task: Sum loss across different labels, often combined with weighted loss to address class imbalance
+  - Addressing class imbalance: weighted loss or resampling
+  - Dataset size: Leveraging pre-trained models using transfer learning + Data augmentation
+  - Multi-Task: Sum loss across different labels, often combined with weighted loss to address class imbalance
   3. Evaluation
-    - AUC and ROC curves
-    - GradCAMs
+  - AUC and ROC curves
+  - GradCAMs
 
 ### Week 2: Evaluation of Diagnostic Models
   1. Accuracy
