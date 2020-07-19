@@ -19,7 +19,9 @@
 ### 1. Accuracy
 ### 2. Prevalance
   - Proportion of positive examples
-### 3. Specificity & Sensitivity
+### 3. Sensitivity & Specificity
+  - Sensitivity: TP/(TP + FN)
+  - Specificity: TN/(TN + FP)
 ### 4. PPV and NPV
 ### 5. ROC curve and AURCROC (c-statistic)
 ### 6. Confidence Intervals
