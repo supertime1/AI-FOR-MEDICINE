@@ -4,7 +4,7 @@
 ### 1. Data preparation
   - Visualizaing data
   - Preventing data leakage: no overlapping of patients in training and test dataset
-  - Data input pipeline：use different generators (e.g. ImageDataGenerator) for train and test, if normalization is used in this step 
+  - Data input pipeline: use different generators (e.g. ImageDataGenerator) for train and test, if normalization is used in this step 
   
 ### 2. Model Development: How to address Medical Data Challenges
   - Addressing class imbalance: weighted loss or resampling
@@ -16,10 +16,10 @@
   - GradCAMs
 
 ## Week 2: Evaluation of Diagnostic Models
-  ###1. Accuracy
-  ###2. Prevalance
-  ###3. Specificity & Sensitivity
-  ###4. PPV and NPV
-  ###5. ROC curve and AURCROC (c-statistic)
-  ###6. Confidence Intervals
+### 1. Accuracy
+### 2. Prevalance
+### 3. Specificity & Sensitivity
+### 4. PPV and NPV
+### 5. ROC curve and AURCROC (c-statistic)
+### 6. Confidence Intervals
   
