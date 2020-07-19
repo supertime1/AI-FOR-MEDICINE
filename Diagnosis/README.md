@@ -18,6 +18,7 @@
 ## Week 2: Evaluation of Diagnostic Models
 ### 1. Accuracy
 ### 2. Prevalance
+  - Proportion of positive examples
 ### 3. Specificity & Sensitivity
 ### 4. PPV and NPV
 ### 5. ROC curve and AURCROC (c-statistic)
