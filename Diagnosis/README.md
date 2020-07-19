@@ -6,7 +6,7 @@
   - Preventing data leakage: no overlapping of patients in training and test dataset
   - Data input pipeline：use different generators (e.g. ImageDataGenerator) for train and test, if normalization is used in this step 
   
-  ###2. Model Development: How to address Medical Data Challenges
+  ###2.Model Development: How to address Medical Data Challenges
   - Addressing class imbalance: weighted loss or resampling
   - Dataset size: Leveraging pre-trained models using transfer learning + Data augmentation
   - Multi-Task: Sum loss across different labels, often combined with weighted loss to address class imbalance
