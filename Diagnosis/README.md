@@ -14,7 +14,7 @@
 
 ### 2. Model Evalution: 
 - Analyze model in subgroups (age, sex, socioeconomic status etc...)
-- Decision Curve Analysis
+- Decision Curve Analysis: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2577036/
 - Randomized Controlled Trails
 - External Validation
 
