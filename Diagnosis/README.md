@@ -52,6 +52,8 @@
          ![Notebook](https://github.com/supertime1/AI-FOR-MEDICINE/blob/master/Images/Dice%20similarity%20coefficient.png?raw=true)
     
   - Soft Dice Loss:
+  
+       ![Notebook](https://github.com/supertime1/AI-FOR-MEDICINE/blob/master/Images/Multi-Class%20Soft%20Dice%20Loss.png?raw=true)
 
 ### 4. Visualizing and evaluating segmentation models
   - Overall Performance
