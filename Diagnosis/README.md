@@ -47,11 +47,12 @@
 ### 3. Metrics and loss functions for segmentation
   - Dice Coefficient
     - Cross-entropy loss function is NOT preferred for this segmentation task due to heavy class imbalance.
-    - Dice similarity coefficient is a measure of how well two contours overlap:
+    - Dice similarity coefficient(DSC) is a measure of how well two contours overlap:
     
          ![Notebook](https://github.com/supertime1/AI-FOR-MEDICINE/blob/master/Images/Dice%20similarity%20coefficient.png?raw=true)
     
   - Soft Dice Loss:
+    - Soft Dice Loss is an analogue of DSC for neural network training, since DSC assume the prediction is either 0 or 1, but we need probability for training
   
        ![Notebook](https://github.com/supertime1/AI-FOR-MEDICINE/blob/master/Images/Multi-Class%20Soft%20Dice%20Loss.png?raw=true)
 
