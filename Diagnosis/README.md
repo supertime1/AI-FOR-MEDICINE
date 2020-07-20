@@ -60,4 +60,4 @@
   - Overall Performance
   - Patch-level Predictions
   - Running on Entire Scans
-  - GradCAMs
+    - Run prediction on pathes and then combine the results
