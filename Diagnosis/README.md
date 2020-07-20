@@ -1,4 +1,4 @@
-# AI for medical diagnosis
+# AI for Medical Diagnosis
 
 ## Week 1: Chest X-Ray Medical Diagonosis with Deep Learning
 ### 1. Data preparation
