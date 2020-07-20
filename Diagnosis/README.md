@@ -40,11 +40,16 @@
   
 ### 2. Standard data preparation techniques for MRI datasets
   - Sub-volume sampling
+    - 3D image that needs to be trained by random sub-volume sampling
+    - Given that a large portion of the MRI volumes are just brain tissue or black background without any tumors, we want to make sure that we pick patches include at least 5% tumor
   - Standardization
   
 ### 3. Metrics and loss functions for segmentation
   - Dice Coefficient
-  - Soft Dice Loss
+    - Cross-entropy loss function is NOT preferred for this segmentation task due to heavy class imbalance.
+    - Dice similarity coefficient is a measure of how well two contours overlap: (insert equation)
+  - Soft Dice Loss:
+  $$\text{DSC}(f, x, y) = \frac{2 \times \sum_{i, j} f(x)_{ij} \times y_{ij} + \epsilon}{\sum_{i,j} f(x)_{ij} + \sum_{i, j} y_{ij} + \epsilon}$$
 
 ### 4. Visualizing and evaluating segmentation models
   - Overall Performance
