@@ -50,7 +50,7 @@
     - Dice similarity coefficient is a measure of how well two contours overlap: (insert equation)
   - Soft Dice Loss:
 
-$$\text{DSC}(f, x, y) = \frac{2 \times \sum_{i, j} f(x)_{ij} \times y_{ij} + \epsilon}{\sum_{i,j} f(x)_{ij} + \sum_{i, j} y_{ij} + \epsilon}$$
+<img src="\https://render.githubusercontent.com/render/math?math=text{DSC}(f, x, y) = \frac{2 \times \sum_{i, j} f(x)_{ij} \times y_{ij} + \epsilon}{\sum_{i,j} f(x)_{ij} + \sum_{i, j} y_{ij} + \epsilon}">
 
 ### 4. Visualizing and evaluating segmentation models
   - Overall Performance
