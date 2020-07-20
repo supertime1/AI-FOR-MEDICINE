@@ -10,10 +10,6 @@
   - Addressing class imbalance: weighted loss or resampling
   - Dataset size: Leveraging pre-trained models using transfer learning + Data augmentation
   - Multi-Task: Sum loss across different labels, often combined with weighted loss to address class imbalance
-  
-### 3. Evaluation
-  - AUC and ROC curves
-  - GradCAMs
 
 ## Week 2: Evaluation of Diagnostic Models
 ### 1. Accuracy
@@ -35,3 +31,23 @@
 ### 9. Calibration
   - In calibration we try to improve our model such that the distribution and behavior of the probability predicted is similar to the distribution and behavior of probability observed in training data.
   
+## Week 3: Brain Tumor Auto-Segmentation for Magnetic Resonance Imaging (MRI)
+### 1. Common Medical Image Modalities
+  - MRI
+  - Computer Tomography (CT)
+  - Ultrasound
+  - X-Rays
+  
+### 2. Standard data preparation techniques for MRI datasets
+  - Sub-volume sampling
+  - Standardization
+  
+### 3. Metrics and loss functions for segmentation
+  - Dice Coefficient
+  - Soft Dice Loss
+
+### 4. Visualizing and evaluating segmentation models
+  - Overall Performance
+  - Patch-level Predictions
+  - Running on Entire Scans
+  - GradCAMs
