@@ -47,7 +47,8 @@
 ### 3. Metrics and loss functions for segmentation
   - Dice Coefficient
     - Cross-entropy loss function is NOT preferred for this segmentation task due to heavy class imbalance.
-    - Dice similarity coefficient is a measure of how well two contours overlap: 
+    - Dice similarity coefficient is a measure of how well two contours overlap:
+    ![Notebook](https://github.com/supertime1/AI-FOR-MEDICINE/blob/master/Images/Dice%20similarity%20coefficient.png?raw=true)
   - Soft Dice Loss:
 
 ### 4. Visualizing and evaluating segmentation models
