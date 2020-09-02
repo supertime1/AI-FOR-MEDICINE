@@ -12,7 +12,7 @@
   - Multi-Task: Sum loss across different labels, often combined with weighted loss to address class imbalance
   - Restrospective data vs. Real-World/Prospective data: could develop model using retrospective data and fine tune by using prospective data
 
-### 2. Model Evalution: 
+### 3. Model Evalution: 
 - Analyze model in subgroups (age, sex, socioeconomic status etc...)
 - Decision Curve Analysis: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2577036/
 - Randomized Controlled Trails
