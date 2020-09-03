@@ -30,18 +30,18 @@
 ## Week 3: Survival Models and Time
 ### 1. Survival Estimates
 - Difference to Risk Model:
-  - risk model: what is the probability of death in 5 years = Pr
-  - survival model: what is the probability of survival past 5 years = 1 - Pr
+  - risk: what is the probability of death in 5 years = Pr
+  - survival: what is the probability of survival past 5 years = 1 - Pr
 - Survival function: what is the probability of survival past any time t?
   - S(t) = Pr(T>t)
   - S(u) <= S(v) if u >= v
   - S(t) = 1 if t = 0, and S(t) = 0 if t = +infinite
-  
-  
+   
 ### 2. Time to Event Data (Surival data)
 - Y is time to event, instead of 0 or 1 in risk model
 - Right Censoring: event always after, if any
-  - end of study censoring
+  - end of study censoringg
+  - loss-to-follow-up cens
   - loss-to-follow-up censoring
 - Left Censoring: event happened before a cetain time, but don't know when exactly
 
@@ -53,3 +53,18 @@
 ## Week 4: Build a risk model using linear and tree-based models
 ### 1. Suvival and hazard functions
 - Survival to Hazard: what is the probability of survival past any time t -> what's a patient's immediate risk of death if they make it to time t
+- Hazard function: lambda(t) = P(T=t | T>=t) = - S'(t)/S(t)
+- Cumulative Hazard: sum of lambada(t) x t
+\lambda(t, x) = \lambda_0(t)e^{\theta^T X_i}
+
+### 2. Customizing risk models to individual patients
+- Individualized predictions can be made by using a baseline hazard function with a scaling factor (e.g smokings, ages..)
+- lambda(t) = lambda(t0) x exp(WX) -> linear risk models
+
+### 3. Non-Linear risk model with Survival Trees
+- Survival trees use decision trees to categorize survival data into different category (accumulative hazard group) based on factors such as smokings, ages, and then calculate the accumulative hazardous function for each category by using Nelson Aalen estimator
+- Nelson Aalen estimator: H(t) = sum(d(i)/n(i)), where d(i) = num died at time i, n(i) = num survived to time i (don't included right censoring data)
+
+### 4. Evaluation of Survival Model
+
+
