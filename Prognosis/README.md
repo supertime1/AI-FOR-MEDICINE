@@ -55,16 +55,16 @@
 - Survival to Hazard: what is the probability of survival past any time t -> what's a patient's immediate risk of death if they make it to time t
 - Hazard function: lambda(t) = P(T=t | T>=t) = - S'(t)/S(t)
 - Cumulative Hazard: sum of lambada(t) x t
-\lambda(t, x) = \lambda_0(t)e^{\theta^T X_i}
 
 ### 2. Customizing risk models to individual patients
 - Individualized predictions can be made by using a baseline hazard function with a scaling factor (e.g smokings, ages..)
-- lambda(t) = lambda(t0) x exp(WX) -> linear risk models
+- Cox Proportional Hazards model: lambda(t) = lambda(t0) x exp(WX) -> linear risk models
+- Cox Proportional Hazards model gives both Hazard Function and Risk Score 
 
 ### 3. Non-Linear risk model with Survival Trees
 - Survival trees use decision trees to categorize survival data into different category (accumulative hazard group) based on factors such as smokings, ages, and then calculate the accumulative hazardous function for each category by using Nelson Aalen estimator
 - Nelson Aalen estimator: H(t) = sum(d(i)/n(i)), where d(i) = num died at time i, n(i) = num survived to time i (don't included right censoring data)
 
 ### 4. Evaluation of Survival Model
-
+- Harrell's C-index: similar to previous defined C-index but with 
 
